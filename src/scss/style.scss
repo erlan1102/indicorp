@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  padding: 0 30px;
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+}
+.burger{
+  display: none;
+}
+
+@import "header";
+@import "first-screen";
+@import "choose";
+@import "practice";
+@import "service";
+@import "clients";
+@import "connection";
+@import "footer";
+@import "media";
+@import "contact";
+

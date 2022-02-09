@@ -1,0 +1,145 @@
+
+.connection{
+  padding-top: 100px;
+  padding-bottom: 148px;
+  background: #F3F3F3;
+  &__title{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  &__subtitle{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+  &__gps{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #252B42;
+    margin-top: 80px;
+    &-email{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+      margin-top: 15px;
+    }
+    &-item{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #FFFFFF;
+      margin-bottom: 15px;
+    }
+    &-number{
+      margin: 0 84px;
+      text-align: center;
+    }
+  }
+  &__gps:hover{
+    background-color: rgba(25,25,100,0.9);
+    transition: 1s;
+  }
+  #footer__btn{
+    width: 160px;
+    height: 44px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: transparent;
+  }
+  #footer__btn:hover{
+    background-color: rgba(25,2,100,0.9);
+    border: none;
+    transition: 1s;
+  }
+  &__card{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #FFFFFF;
+    margin-top: 110px;
+    position: relative;
+    &-email{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #252B42;
+      margin-top: 15px;
+    }
+    &-item{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #252B42;
+      margin-bottom: 15px;
+    }
+    &-number{
+      margin: 0 84px;
+      text-align: center;
+      &-btn{
+        width: 160px;
+        height: 44px;
+        border: 1px solid #FFA62B;
+        border-radius: 5px;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #FFA62B;
+        background-color: transparent;
+      }
+      &-btn:hover{
+        background-color: rgba(0,160,193,1);
+        color: white;
+        transition: 0.9s;
+        border: none;
+      }
+    }
+  }
+  &__card:hover{
+    background-color: rgba(2,255,255,0.2);
+    transition: 1s;
+  }
+  .connection__left-m{
+    right: -24px;
+  }
+  .connection__right-m{
+    left: -24px;
+  }
+}

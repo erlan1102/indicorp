@@ -1,0 +1,100 @@
+.service {
+  padding: 100px 0;
+}
+.service__title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-bottom: 15px;
+}
+.service__subtitle {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 100px;
+}
+.service__content {
+  display: flex;
+  justify-content: space-between;
+}
+.service__video {
+  width: 57.1%;
+  height: 442px;
+  background: url("../images/bg-video.png") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.service__video-btn {
+  background: #00A0C1;
+  border-radius: 73.6px;
+  width: 98px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.service__video-btn:hover {
+  background: #00A0C195;
+  transition: 0.5s;
+}
+.service__info {
+  width: 30.9%;
+  padding-top: 22px;
+}
+.service__info-title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-bottom: 10px;
+}
+.service__info-subtitle {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 20px;
+}
+.service__info-item {
+  display: flex;
+  column-gap: 21px;
+  margin-top: 30px;
+}
+.service__info-item-title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  margin-bottom: 5px;
+}
+.service__info-item-subtitle {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}

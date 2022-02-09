@@ -1,0 +1,64 @@
+
+.clients{
+  background: #FAFAFA;
+  position: relative;
+  &__icon{
+    padding-top: 56px;
+    margin-bottom: 70px;
+  }
+  &__row{
+    font-family: sans-serif;
+
+  }
+  &__card{
+    display: flex;
+    justify-content: space-between;
+    background: #16697A;
+    border-radius: 2px;
+    padding: 33px 50px;
+    z-index: 20;
+    margin: 20px 0;
+
+    &-title{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: #FFFFFF;
+    }
+    &-email{
+      width: 340px;
+      height: 58px;
+      border: none;
+      outline: none;
+      padding: 0 20px;
+      border-radius: 5px 0 0 5px;
+    }
+    &-submit{
+      position: relative;
+      left: -5px;
+      width: 117px;
+      height: 58px;
+      border-radius: 0 5px 5px 0;
+      outline: none;
+      cursor: pointer;
+      background: #FFA62B;
+      border: 1px solid #E6E6E6;
+      color: #FFFFFF;
+      transition: .5s;
+    }
+    &-submit:hover{
+      background: #ff5722;
+    }
+  }
+  &__bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 77px;
+    background: #252B42;
+    z-index: 10;
+  }
+}

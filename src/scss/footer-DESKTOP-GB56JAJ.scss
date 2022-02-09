@@ -1,0 +1,64 @@
+.container__social{
+  padding: 25px 0;
+  background: #FAFAFA;
+
+  &-block{
+    display: flex;
+    justify-content: space-between;
+  }
+  &-icons{
+    display: flex;
+    column-gap: 20px;
+  }
+  &-title{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+  }
+}
+.container__bg{
+  width: 100%;
+  background: #16697A;
+}
+.container__company{
+  padding-bottom: 50px;
+  &-info{
+    display: flex;
+    flex-direction: column;
+  }
+  &-title{
+    margin-top: 50px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  &-subtitle{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  &-column{
+    display: flex;
+    column-gap: 10px;
+  }
+}
+.container__flex{
+  display: flex;
+  flex-direction: column;
+}
